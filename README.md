@@ -37,7 +37,10 @@ for a converter from PNG to this format.
 Fetching Stuff From Internet
 ============================
 
-Don't know.
+    wget -O - http://192.168.0.6:8000/golfer.raw |
+      /usr/local/Kobo/ pickel showpic
+
+`wget` doesn't seem to support `https`.
 
 Compiling Your Own Programs
 ===========================
