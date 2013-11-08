@@ -55,7 +55,11 @@ Fetching Stuff From Internet
 Compiling Your Own Programs
 ===========================
 
-Don't know.
+Cross compiling for arm7.
+
+    sudo apt-get install gcc-arm-linux-gnueabi
+    arm-linux-gnueabi-gcc foo.c
+
 
 External Resources
 ==================
