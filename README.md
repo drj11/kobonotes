@@ -1,0 +1,1 @@
+Kobo Mini
