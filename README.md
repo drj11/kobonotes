@@ -15,6 +15,7 @@ page). Get device IP from the Device Information panel of the
 Settings page.
 
 telnet; username `root`; no password.
+ftp works too.
 
 Wireless On
 ===========
