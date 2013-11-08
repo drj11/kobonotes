@@ -42,6 +42,8 @@ Fetching Stuff From Internet
 
 `wget` doesn't seem to support `https`.
 
+See also `nc`.
+
 Compiling Your Own Programs
 ===========================
 
