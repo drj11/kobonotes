@@ -60,6 +60,17 @@ Cross compiling for arm7.
     sudo apt-get install gcc-arm-linux-gnueabi
     arm-linux-gnueabi-gcc foo.c
 
+For compiling node (which uses floating point):
+
+    export AR=arm-linux-gnueabihf-ar
+    export CC=arm-linux-gnueabihf-gcc
+    export CXX=arm-linux-gnueabihf-g++
+    export LINK=arm-linux-gnueabihf-g++
+
+    ./configure --prefix kobonode --without-snapshot --dest-cpu=arm --with-arm-float-abi=hard
+    # make && make install
+    # (you'll need to hack the #! line for npm)
+
 
 External Resources
 ==================
