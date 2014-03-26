@@ -41,7 +41,7 @@ Fetching Stuff From Internet
 `wget` (doesn't seem to support `https`):
 
     wget -O - http://192.168.0.6:8000/golfer.raw |
-      /usr/local/Kobo/ pickel showpic
+      /usr/local/Kobo/pickel showpic
 
 
 `nc`:
